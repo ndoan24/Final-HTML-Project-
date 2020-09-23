@@ -1,210 +1,446 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            * {
+                box-sizing: border-box
+            }
+
+            body {
+                font-family: Verdana, sans-serif;
+                margin: 0
+            }
+
+            .mySlides {
+                display: none
+            }
+
+            img {
+                vertical-align: middle;
+            }
+
+            /* Slideshow container */
+            .slideshow-container {
+                max-width: 1000px;
+                position: relative;
+                margin: auto;
+            }
+
+            /* Next & previous buttons */
+            .prev,
+            .next {
+                cursor: pointer;
+                position: absolute;
+                top: 50%;
+                width: auto;
+                padding: 16px;
+                margin-top: -22px;
+                color: white;
+                font-weight: bold;
+                font-size: 18px;
+                transition: 0.6s ease;
+                border-radius: 0 3px 3px 0;
+                user-select: none;
+            }
+
+            /* Position the "next button" to the right */
+            .next {
+                right: 0;
+                border-radius: 3px 0 0 3px;
+            }
+
+            /* On hover, add a black background color with a little bit see-through */
+            .prev:hover,
+            .next:hover {
+                background-color: rgba(0, 0, 0, 0.8);
+            }
+
+            /* Caption text */
+            .text {
+                color: #f2f2f2;
+                font-size: 15px;
+                padding: 8px 12px;
+                position: absolute;
+                bottom: 8px;
+                width: 100%;
+                text-align: center;
+            }
+
+            /* Number text (1/3 etc) */
+            .numbertext {
+                color: #f2f2f2;
+                font-size: 12px;
+                padding: 8px 12px;
+                position: absolute;
+                top: 0;
+            }
+
+            /* The dots/bullets/indicators */
+            .dot {
+                cursor: pointer;
+                height: 15px;
+                width: 15px;
+                margin: 0 2px;
+                background-color: #bbb;
+                border-radius: 50%;
+                display: inline-block;
+                transition: background-color 0.6s ease;
+            }
+
+            .active,
+            .dot:hover {
+                background-color: #717171;
+            }
+
+            /* Fading animation */
+            .fade {
+                -webkit-animation-name: fade;
+                -webkit-animation-duration: 1.5s;
+                animation-name: fade;
+                animation-duration: 1.5s;
+            }
+
+            @-webkit-keyframes fade {
+                from {
+                    opacity: .4
+                }
+
+                to {
+                    opacity: 1
+                }
+            }
+
+            @keyframes fade {
+                from {
+                    opacity: .4
+                }
+
+                to {
+                    opacity: 1
+                }
+            }
+
+            /* On smaller screens, decrease text size */
+            @media only screen and (max-width: 300px) {
+
+                .prev,
+                .next,
+                .text {
+                    font-size: 11px
+                }
+            }
+        </style>
+    </head>
+
+
+    <nav>
+        <div class="navbar">
+            <a href="resorts.html">How-To</a>
+            <a href="photography.html">Photography</a>
+            <a href="index.html">Home</a>
+
+
+
+
+        </div>
+    </nav>
+
 </head>
+
 <body>
-    
-    <body>    
 
-        <main>
-            <table>
-                <h1>This is the Bus Schedule!</h1>
-                <caption><strong>Bus Schedule 20-21 *Excluding Holidays</strong></caption>
-    
-                <thead>
-    
-                    <colgroup>
-                        <col span="1" style="background-color: rgb(163, 38, 0);">
-    
-                        <col span="1" style="background-color: rgb(231, 35, 9);">
-    
-                        <col span="1" style="background-color: rgb(238, 72, 6)">
-    
-                        <col span="2" style="background-color: rgb(207, 207, 11)">
-    
-                    </colgroup>
-                    <th>Denver Shuttle Bus (Leaves DIA)</th>
-                    <th>Arrive Union Station</th>
-                    <th>Depart RTD Bus</th>
-                    <th>Arrive DIA</th>
-    
-                </thead>
-    
-                <tr>
-                    <td>10:05 AM</td>
-                    <td>10:35 AM</td>
-                    <td></td>
-                    <td></td>
-    
-                </tr>
-    
-                <tr>
-                    <td>11:05 AM</td>
-                    <td>11:35 AM</td>
-                    <td>12:00 PM</td>
-                    <td>12:50 PM</td>
-    
-                </tr>
-    
-                <tr>
-                    <td>1:05 PM</td>
-                    <td>1:35 PM</td>
-                    <td></td>
-                    <td></td>
-    
-                </tr>
-    
-                <tr>
-                    <td>2:05 PM</td>
-                    <td>2:35 PM</td>
-                    <td>3:00 PM</td>
-                    <td>3:50 PM</td>
-    
-                </tr>
-    
-    
-            </table>
-    
-        </main>
-    </body>
+    <h2>Pictionary</h2>
 
-    
-        <main>
-    
-    
-            <table>
-                <h1>This is the Train Schedule!</h1>
-                <caption><strong>SPECIAL TRAIN SCHEDULE FOR SATURDAY, JANUARY 2, 2021</strong></caption>
-    
-                <thead>
-    
-                    <colgroup>
-                        <col span="1" style="background-color: salmon;">
-    
-                        <col span="1" style="background-color: peachpuff;">
-    
-                        <col span="1" style="background-color: gray">
-    
-                        <col span="1" style="background-color: palegoldenrod;">
-    
-                        <col span="1" style="background-color: papayawhip;">
-    
-                    </colgroup>
-    
-                    <th>Time</th>
-                    <th>Number</th>
-                    <th>Train</th>
-                    <th>To</th>
-                    <th>From</th>
-    
-                </thead>
-    
-                <tr>
-                    <td>3:37 PM</td>
-                    <td>307</td>
-                    <td>The Polar Express</td>
-                    <td>The North Pole</td>
-                    <td>The South Pole</td>
-    
-                </tr>
-    
-                <tr>
-                    <td>3:38 PM</td>
-                    <td>6654</td>
-                    <td>Food Express</td>
-                    <td>Vegetable Land Inc.</td>
-                    <td>Fruits District</td>
-    
-                </tr>
-    
-    
-                <tr>
-                    <td>3:40 PM</td>
-                    <td>4209</td>
-                    <td>AmTrak</td>
-                    <td>Union Station</td>
-                    <td>Santa Fe District</td>
-    
-                </tr>
-    
-    
-                <tr>
-                    <td>3:42 PM</td>
-                    <td>4568</td>
-                    <td>High Bridge</td>
-                    <td>New York</td>
-                    <td>City Park</td>
-    
-                </tr>
-    
-                <tr>
-                    <td>3:45 PM</td>
-                    <td>6754</td>
-                    <td>Blue Train</td>
-                    <td>Rainbow Alley</td>
-                    <td>Pot of Gold Express</td>
-    
-                </tr>
-    
-                <tr>
-                    <td>3:47 PM</td>
-                    <td>3875</td>
-                    <td>Ski Express</td>
-                    <td>Keystone Resort</td>
-                    <td>Breckenridge Resort</td>
-    
-                </tr>
-    
-                <tr>
-                    <td>3:49 PM</td>
-                    <td>2873</td>
-                    <td>Travel Express</td>
-                    <td>Yellowstone National Park</td>
-                    <td>Sanddunes National Park</td>
-    
-                </tr>
-    
-                <tr>
-                    <td>3:50 PM</td>
-                    <td>7574</td>
-                    <td>Green Train</td>
-                    <td>Mountains Resort</td>
-                    <td>Beach Resort</td>
-    
-                </tr>
-    
-                <tr>
-                    <td>3:54 PM</td>
-                    <td>3737</td>
-                    <td>Music Expres</td>
-                    <td>R&B Club </td>
-                    <td>Rap Club</td>
-    
-                </tr>
-    
-    
-                <tr>
-                    <td>4:00 PM</td>
-                    <td>6575</td>
-                    <td>Dinosour Railway</td>
-                    <td>Red Rocks</td>
-                    <td>Mt. Bierdstadst</td>
-    
-                </tr>
-    
-    
-            </table>
-    
-        </main>
-    
-    
-        
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="https://www.wikihow.com/images/thumb/5/55/Snowboard-for-Beginners-Step-1-Version-3.jpg/aid1233280-v4-728px-Snowboard-for-Beginners-Step-1-Version-3.jpg.webp"
+                style="width:100%">
+            <div class="text">One</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 /20</div>
+            <img src="https://www.wikihow.com/images/thumb/3/3f/Snowboard-for-Beginners-Step-2-Version-3.jpg/aid1233280-v4-728px-Snowboard-for-Beginners-Step-2-Version-3.jpg.webp"
+                style="width:100%">
+            <div class="text">Two</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 20</div>
+            <img src="https://www.wikihow.com/images/thumb/5/58/Snowboard-for-Beginners-Step-3-Version-3.jpg/aid1233280-v4-728px-Snowboard-for-Beginners-Step-3-Version-3.jpg.webp"
+                style="width:100%">
+            <div class="text">Three</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 20</div>
+            <img src="https://www.wikihow.com/images/thumb/7/7c/Snowboard-for-Beginners-Step-4-Version-3.jpg/aid1233280-v4-728px-Snowboard-for-Beginners-Step-4-Version-3.jpg.webp"
+                style="width:100%">
+            <div class="text">Four</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 20</div>
+            <img src="https://www.wikihow.com/images/thumb/9/91/Snowboard-for-Beginners-Step-5-Version-2.jpg/aid1233280-v4-728px-Snowboard-for-Beginners-Step-5-Version-2.jpg.webp"
+                style="width:100%">
+            <div class="text">Five</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">6 / 20</div>
+            <img src="https://www.wikihow.com/images/thumb/e/e5/Snowboard-for-Beginners-Step-6-Version-2.jpg/aid1233280-v4-728px-Snowboard-for-Beginners-Step-6-Version-2.jpg.webp"
+                style="width:100%">
+            <div class="text">Six</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">7 / 20</div>
+            <img src="https://www.wikihow.com/images/thumb/7/7f/Snowboard-for-Beginners-Step-7-Version-2.jpg/aid1233280-v4-728px-Snowboard-for-Beginners-Step-7-Version-2.jpg.webp"
+                style="width:100%">
+            <div class="text">Seven</div>
+        </div>
+
+
+        <div class="mySlides fade">
+            <div class="numbertext">8 / 20</div>
+            <img src=https://www.wikihow.com/images/thumb/f/f3/Snowboard-for-Beginners-Step-9-Version-2.jpg/aid1233280-v4-728px-Snowboard-for-Beginners-Step-9-Version-2.jpg.webp
+                style="width:100%">
+            <div class="text">Eight</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">9 / 20</div>
+            <img src="https://www.wikihow.com/images/thumb/1/1a/Snowboard-for-Beginners-Step-10-Version-2.jpg/aid1233280-v4-728px-Snowboard-for-Beginners-Step-10-Version-2.jpg.webp"
+                style="width:100%">
+            <div class="text">Nine</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">9 / 20</div>
+            <img src="https://www.wikihow.com/images/thumb/f/f2/Snowboard-for-Beginners-Step-11-Version-2.jpg/aid1233280-v4-728px-Snowboard-for-Beginners-Step-11-Version-2.jpg.webp"
+                style="width:100%">
+            <div class="text">Nine</div>
+
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">10 / 20</div>
+            <img src="https://www.wikihow.com/images/thumb/6/61/Snowboard-for-Beginners-Step-12-Version-2.jpg/aid1233280-v4-728px-Snowboard-for-Beginners-Step-12-Version-2.jpg.webp"
+                style="width:100%">
+            <div class="text">Ten</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">11/ 20</div>
+            <img src="https://www.wikihow.com/images/thumb/7/71/Snowboard-for-Beginners-Step-13-Version-2.jpg/aid1233280-v4-728px-Snowboard-for-Beginners-Step-13-Version-2.jpg.webp"
+                style="width:100%">
+            <div class="text">Eleven</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">12 / 20</div>
+            <img src="https://www.wikihow.com/images/thumb/4/40/Snowboard-for-Beginners-Step-14-Version-3.jpg/aid1233280-v4-728px-Snowboard-for-Beginners-Step-14-Version-3.jpg.webp"
+                style="width:100%">
+            <div class="text">Twelve</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">13 / 20</div>
+            <img src="https://www.wikihow.com/images/thumb/4/4a/Snowboard-for-Beginners-Step-15-Version-2.jpg/aid1233280-v4-728px-Snowboard-for-Beginners-Step-15-Version-2.jpg.webp"
+                style="width:100%">
+            <div class="text">Thirteen</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">14 / 20</div>
+            <img src="https://www.wikihow.com/images/thumb/6/65/Snowboard-for-Beginners-Step-16-Version-2.jpg/aid1233280-v4-728px-Snowboard-for-Beginners-Step-16-Version-2.jpg.webp"
+                style="width:100%">
+            <div class="text">Fourteen</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">15 / 20</div>
+            <img src="https://www.wikihow.com/images/thumb/6/6c/Snowboard-for-Beginners-Step-17-Version-2.jpg/aid1233280-v4-728px-Snowboard-for-Beginners-Step-17-Version-2.jpg.webp"
+                style="width:100%">
+            <div class="text">Fifteen</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">16 / 20</div>
+            <img src="https://www.wikihow.com/images/thumb/a/a0/Snowboard-for-Beginners-Step-18-Version-2.jpg/aid1233280-v4-728px-Snowboard-for-Beginners-Step-18-Version-2.jpg.webp"
+                style="width:100%">
+            <div class="text">Sixteen</div>
+        </div>
+
+
+        <div class="mySlides fade">
+            <div class="numbertext">17 / 20</div>
+            <img src="https://www.wikihow.com/images/thumb/1/17/Snowboard-for-Beginners-Step-19-Version-2.jpg/aid1233280-v4-728px-Snowboard-for-Beginners-Step-19-Version-2.jpg.webp"
+                style="width:100%">
+            <div class="text">Seventeen</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">18 / 20</div>
+            <img src="https://www.wikihow.com/images/thumb/f/f2/Snowboard-for-Beginners-Step-20-Version-2.jpg/aid1233280-v4-728px-Snowboard-for-Beginners-Step-20-Version-2.jpg.webp"
+                style="width:100%">
+            <div class="text">Eighteen</div>
+
+        </div>
+
+
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+
+
+<br>
+
+
+To learn more from the slideshow click <a
+href="https://www.wikihow.com/Snowboard-for-Beginners">here</a>
 
 
 
 </body>
+
+</html>
+
+<body>
+    <main>
+
+
+
+
+        <table>
+            <h1>Opening Day</h1>
+            <caption><strong>Subject to Change 20-21 Year</strong></caption>
+
+            <thead>
+
+                <colgroup>
+                    <col span="1" style="background-color: salmon;">
+
+                    <col span="1" style="background-color: peachpuff;">
+
+
+                    <col span="1" style="background-color: palegoldenrod;">
+
+                    <col span="1" style="background-color: papayawhip;">
+
+                </colgroup>
+
+                <th>When</th>
+                <th>Day</th>
+                <th>Resort Name</th>
+                <th>Miles from DIA</th>
+
+            </thead>
+
+            <tr>
+                <td>10/11/20</td>
+                <td>Sunday</td>
+                <td>Arapahoe Basin Ski Area</td>
+                <td>86.4 Miles</td>
+
+
+            </tr>
+
+            <tr>
+                <td>10/12/20</td>
+                <td>Monday</td>
+                <td>Keystone</td>
+                <td>76 Miles</td>
+
+
+            </tr>
+
+
+            <tr>
+                <td>10/25</td>
+                <td>Sunday</td>
+                <td>Loveland </td>
+                <td>51 Miles</td>
+
+
+            </tr>
+
+
+            <tr>
+                <td>11/01/20</td>
+                <td>Sunday</td>
+                <td>Eldora Ski Resort</td>
+                <td>33 Miles</td>
+
+
+            </tr>
+
+            <tr>
+                <td>11/08/20</td>
+                <td>Sunday</td>
+                <td>Breckenridge </td>
+                <td>80 miles</td>
+
+
+            </tr>
+
+
+        </table>
+
+    </main>
+
+
+
+
+
+
+</body>
+
 </html>
