@@ -176,3 +176,9 @@ img:hover {
   opacity: 1.0;
 }
 
+.forms {
+  max-width: 480px;
+  margin: 50px auto;
+  padding: 16px;
+  border: 1px solid #eaeaea;
+}
