@@ -3,14 +3,13 @@ body {
   background-image: url('images/blue-snow.png')
 }
 
-/* Navbar container */
+/* Navbar */
 .navbar {
     overflow: hidden;
     background-color: rgb(161, 149, 149);
     font-family: Arial;
   }
   
-  /* Links inside the navbar */
   .navbar a {
     float: right;
     font-size: 16px;
@@ -20,13 +19,13 @@ body {
     text-decoration: none;
   }
   
-  /* The dropdown container */
+  
   .dropdown {
     float: right;
     overflow: hidden;
   }
   
-  /* Dropdown button */
+
   .dropdown .dropbtn {
     font-size: 16px;
     border: none;
@@ -34,16 +33,16 @@ body {
     color: skyblue;
     padding: 14px 16px;
     background-color: inherit;
-    font-family: inherit; /* Important for vertical align on mobile phones */
-    margin: 0; /* Important for vertical align on mobile phones */
+    font-family: inherit; 
+    margin: 0; /
   }
   
-  /* Add a red background color to navbar links on hover */
+/
   .navbar a:hover, .dropdown:hover .dropbtn {
     background-color:peachpuff;
   }
   
-  /* Dropdown content (hidden by default) */
+ 
   .dropdown-content {
     display: none;
     position: absolute;
@@ -53,7 +52,6 @@ body {
     z-index: 1;
   }
   
-  /* Links inside the dropdown */
   .dropdown-content a {
     float: none;
     color: black;
@@ -63,12 +61,12 @@ body {
     text-align: left;
   }
   
-  /* Add a grey background color to dropdown links on hover */
+ 
   .dropdown-content a:hover {
     background-color: skyblue;
   }
   
-  /* Show the dropdown menu on hover */
+ 
   .dropdown:hover .dropdown-content {
     display: block;
   }
