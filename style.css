@@ -34,10 +34,10 @@ body {
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit; 
-    margin: 0; /
+    margin: 0; 
   }
   
-/
+
   .navbar a:hover, .dropdown:hover .dropbtn {
     background-color:peachpuff;
   }
@@ -101,7 +101,7 @@ color:black;
 
 
 
-    
+
 /* 
     nav {
       float: right;
