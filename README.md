@@ -27,5 +27,4 @@ Active families, singles interested in snowboarding sport and want to learn more
 
 See it here: 
 
-http://github.com - automatic!
-[GitHub](https://ndoan24.github.io/Final-HTML-Project-/)
+[Snowboarding Project ](https://ndoan24.github.io/Final-HTML-Project-/)
