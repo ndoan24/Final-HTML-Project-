@@ -4,7 +4,7 @@ body {
 }
 
 /* Navbar */
-.navbar {
+/* .navbar {
     overflow: hidden;
     background-color: rgb(161, 149, 149);
     font-family: Arial;
@@ -18,7 +18,7 @@ body {
     padding: 14px 16px;
     text-decoration: none;
   }
-  
+   */
   
   .dropdown {
     float: right;
@@ -38,10 +38,10 @@ body {
   }
   
 
-  .navbar a:hover, .dropdown:hover .dropbtn {
+  /* .navbar a:hover, .dropdown:hover .dropbtn {
     background-color:peachpuff;
   }
-  
+   */
  
   .dropdown-content {
     display: none;
