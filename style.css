@@ -3,6 +3,9 @@ body {
   background-image: url('images/blue-snow.png')
 }
 
+
+
+
 /* Navbar */
 /* .navbar {
     overflow: hidden;
@@ -43,6 +46,13 @@ body {
   }
    */
  
+   .dropdown-content {
+     background-image: url('images/snowboardstwo.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+
+   }
+   
   .dropdown-content {
     display: none;
     position: absolute;
@@ -89,8 +99,8 @@ color:black;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(138, 246, 228);
-    color: black;
+    background-color: rgb(7, 8, 8);
+    color: whitesmoke;
     text-align: center;
     }
 
@@ -132,8 +142,9 @@ color:black;
   .heading {
     padding: 60px;
     text-align: center;
-    background: #1de6bd;
-    color: white;
+    /* background: #1de6bd;
+    color: white; */
+    background-image: url('images/mountains.png');
     font-size: 30px;
   }
 
@@ -188,4 +199,9 @@ img:hover {
 .slideshow {
   text-align: center;
 }
+
+.jumbotron{
+  background-image: url('images/snow.jpeg');
+  background-size: cover;
+  height: 100%;}
 
