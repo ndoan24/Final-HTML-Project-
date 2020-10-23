@@ -152,6 +152,14 @@ transition-duration: 1s;
     saturate(2.5);
 }
 
+.flex9 img {
+    filter: blur(3px);
+}
+
+.flex11 img {
+    filter: drop-shadow(10px 30px 4px yellow);
+}
+
 .flex13 img {
     border: 30px blue solid;
  
