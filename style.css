@@ -48,8 +48,9 @@ body {
  
    .dropdown-content {
      background-image: url('images/snowboardstwo.jpg');
-     background-repeat: repeat-x;
+     background-repeat: none;
      background-size: cover;
+     width: 500px;
      
 
    }

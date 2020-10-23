@@ -85,6 +85,7 @@ transition-duration: 1s;
 
 .flex1 {
     filter: hue-rotate(60deg);
+    filter: drop-shadow(10px 30px 4px orange);
 }
 
 .flex2 {
@@ -109,6 +110,15 @@ transition-duration: 1s;
 
 }
 
+.flex7 {
+    filter: hue-rotate(240deg);
+}
+
+
+
+.flex9 {
+    filter: drop-shadow(10px 30px 4px #AC17C1);
+}
 
 .box {
     height: 250px;
@@ -116,7 +126,7 @@ transition-duration: 1s;
     background-color: whitesmoke;
     transition-duration: 10s;
     transition-property: background-color, transform;
-    margin-left: 650px;
+    margin-left: 250px;
 
     
 }
@@ -136,6 +146,12 @@ transition-duration: 1s;
     width: 250;
 }
 
+
+
+.flex13 img {
+    border: 30px blue solid;
+ 
+}
 img {
     float: center;
     width:  400px;
@@ -144,17 +160,21 @@ img {
    
 }
 
+
+.second {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
 .flexbox-container {
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
 
 }
-.second {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
+
 
 /* .img-border {
     border: 30px solid transparent;
