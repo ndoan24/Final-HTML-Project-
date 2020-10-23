@@ -85,7 +85,7 @@ transition-duration: 1s;
 
 .flex1 {
     filter: hue-rotate(60deg);
-    filter: drop-shadow(10px 30px 4px orange);
+    filter: drop-shadow(30px 60px 8px orange);
 }
 
 .flex2 {
@@ -93,7 +93,7 @@ transition-duration: 1s;
 }
 
 .flex3 {
-    filter: ;
+    filter: saturate(2.5);
 }
 
 .flex4 {
@@ -114,7 +114,9 @@ transition-duration: 1s;
     filter: hue-rotate(240deg);
 }
 
-
+.flex8 {
+    filer: invert(0.9);
+}
 
 .flex9 {
     filter: drop-shadow(10px 30px 4px #AC17C1);
@@ -126,7 +128,7 @@ transition-duration: 1s;
     background-color: whitesmoke;
     transition-duration: 10s;
     transition-property: background-color, transform;
-    margin-left: 250px;
+    margin-left: 50px;
 
     
 }
@@ -146,7 +148,9 @@ transition-duration: 1s;
     width: 250;
 }
 
-
+.flex4 img {
+    saturate(2.5);
+}
 
 .flex13 img {
     border: 30px blue solid;
@@ -182,3 +186,34 @@ img {
 
   } */
 
+  @media screen and (max-width: 480px) {
+    body {
+      background-color:skyblue;
+     } 
+     .center {
+       font-size: 14px;
+     }
+   }
+
+   @media screen and (min-width:768px) {
+
+     body {
+       background-color: purple;
+     }
+     .center {
+       font-size: 60px;
+       font-family: cursive;
+     }
+   }
+
+   @media screen and (min-width:1025px) {
+    body {
+      background-color:skyblue;
+    }
+   }
+
+
+img:hover {
+    opacity: 1.0;
+  
+}

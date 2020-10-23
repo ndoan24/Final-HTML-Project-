@@ -47,7 +47,7 @@ body {
    */
  
    .dropdown-content {
-     background-image: url('images/snowboardstwo.jpg');
+     background-image: url('images/Campania_banner_View_from_Capri.jpg');
      background-repeat: none;
      background-size: cover;
      width: 500px;
@@ -146,7 +146,7 @@ color:black;
     text-align: center;
     /* background: #1de6bd;
     color: white; */
-    background-image: url('images/mountains.png');
+    background-image: url('images/snowboardstwo.jpg');
     font-size: 30px;
   }
 
