@@ -1,0 +1,123 @@
+
+img {
+    float: left;
+    width:  750px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+body {
+    background-image: url('images/blue-snow.png')
+  }
+  
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: rgb(3, 3, 3);
+      color: whitesmoke;
+      text-align: center;
+      }
+  
+      h1 {
+        font-size: 50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        color:black;
+          }
+        
+          h2 {
+              font-size: 50px;
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              text-align: center;
+          }
+   
+  
+
+    
+  
+  table {
+    border: gray;
+  }
+  
+  table, td, th {
+    border: 5px solid rgba(58, 47, 47, 0.966);
+    border-collapse: collapse;  
+    padding: 15px;
+    border-spacing: 3px;
+    margin-top: 85px;
+    text-align: center;
+   margin: 50px 500px 50px 500px;
+  }
+  
+  img {
+    opacity: 0.5;
+    border: black;
+  }
+  
+  img:hover {
+    opacity: 1.0;
+  }img {
+    opacity: 0.5;
+  }
+  
+  img:hover {
+    opacity: 1.0;
+  }
+  
+  .forms {
+    max-width: 480px;
+    margin: 50px auto;
+    padding: 16px;
+    border: 1px solid #eaeaea;
+  }
+  
+  .slideshow {
+    text-align: center;
+  }
+  
+  .jumbotron{
+    background-image: url('images/snow.jpeg');
+    background-size: cover;
+    height: 100%;}
+  
+    @media screen and (max-width: 480px) {
+      body {
+        background-color:skyblue;
+       } 
+       .center {
+         font-size: 14px;
+       }
+     }
+  
+     @media screen and (min-width:768px) {
+  
+       body {
+         background-color: purple;
+       }
+       .center {
+         font-size: 60px;
+         font-family: cursive;
+       }
+     }
+  
+     @media screen and (min-width:1025px) {
+      body {
+        background-color:skyblue;
+      }
+     }
+  
+     .img-border {
+       border: 30px solid transparent;
+       padding: 25px;
+  
+     }
