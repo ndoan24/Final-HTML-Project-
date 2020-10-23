@@ -92,7 +92,7 @@ transition-duration: 1s;
 }
 
 .flex3 {
-    filter: contrast(10%);
+    filter: ;
 }
 
 .flex4 {
@@ -116,6 +116,9 @@ transition-duration: 1s;
     background-color: whitesmoke;
     transition-duration: 10s;
     transition-property: background-color, transform;
+    margin-left: 650px;
+
+    
 }
 
 .box:hover {
@@ -127,18 +130,35 @@ transition-duration: 1s;
 
 }
 
+.flex3 img {
+    border: 30px purple solid;
+    height:350px;
+    width: 250;
+}
 
 img {
     float: center;
-    width:  950px;
-    height: 700px;
+    width:  400px;
+    height: 550px;
     object-fit: cover;
+   
 }
 
+.flexbox-container {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
 
-.img-border {
+}
+.second {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* .img-border {
     border: 30px solid transparent;
     padding: 25px;
 
-  }
+  } */
 
